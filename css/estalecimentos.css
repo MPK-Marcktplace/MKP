@@ -23,15 +23,12 @@ section#estabelecimentos {
 .card {
   margin: 10px;
   max-width: 250px;
-  height: 200px;
+  height: 220px;
   font-family: Ropa Sans, sans-serif;
 }
 
 .card:hover {
   background-color: rgb(132, 132, 247);
-  border: solid 1px blue;
-  margin: auto 0;
-  height: 215px;
 }
 
 .card img {
