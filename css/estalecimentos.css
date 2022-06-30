@@ -29,9 +29,9 @@ section#estabelecimentos {
 
 .card:hover {
   background-color: rgb(132, 132, 247);
-  border: solid 5px blue;
-  border-radius: 10px;
-  height: auto;
+  border: solid 1px blue;
+  margin: auto 0;
+  height: 215px;
 }
 
 .card img {
