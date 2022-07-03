@@ -188,12 +188,17 @@ input[type="checkbox"] {
     /* efeito feito no position absolute feito no input checkbox transform: translateX*/
     top: 50px;
     z-index: 9;
+    opacity: 0;
 }
 
 input[type="checkbox"]:checked~.submenu-hamb {
-    /* transform: translateX(-170px); TEMOS QUE AJUSTAR ESSE COMANDO PARA FICAR LEGAL */
-    opacity: 0;/* LISTA DESAPARECE QUANDO CLICA OUTRA VEZ NO HAMBURGUINHO */
+  /*   transform: translateX(-170px);  TEMOS QUE AJUSTAR ESSE COMANDO PARA FICAR LEGAL */
+    opacity: 1;/* LISTA DESAPARECE QUANDO CLICA OUTRA VEZ NO HAMBURGUINHO */
     /* propriedade mexe no eixo X (horizontal), fazendo o submenu-hamb aparecer*/
+}
+
+.submenu-hamb ul{
+    list-style: none;
 }
 
 .submenu-hamb a {
