@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     align-content: center;
 }
+
 div {
     display: inline-block;
 }
@@ -24,11 +25,11 @@ div {
     padding: 5px;
     margin-left: 10px;
 }
-
 .container {
+    display: flex;
     max-width: 1440px;
     height: auto;
-    background-color: #f0d802;
+    background-color:#1D49B9;
     padding: 10px;
     margin: 10px auto auto;
     border-radius: 20px;
@@ -45,7 +46,7 @@ div {
     justify-content: center;
     margin: 10px;
     padding: 40px;
-    background-color: #dcc600;
+    background-color:#04226d;
     border-style: solid;
     border-radius: 20px;
     border-color: #dcc600;
@@ -96,14 +97,15 @@ div {
 }
 
 .container .form label {
-    display: flex;
+    display:flex;
     font-size: 13px;
-    line-height: 12px;
+    line-height: 21px;
     color: rgb(4, 70, 4);
+    margin-bottom: 3px;
 }
 
 .container .form input {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     border: none;
     background-color: #fff;
@@ -151,7 +153,7 @@ div {
 }
 
 .container .form form input[type="submit"] {
-    background-color: #dcc600;
+    background-color:#1D49B9;
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
@@ -174,7 +176,7 @@ div {
 }
 
 
-@media (max-width:820px) {
+@media (max-width:800px) {
     .container .img {
         display: none;
     }

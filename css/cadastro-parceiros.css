@@ -13,9 +13,11 @@ body {
     min-height: 100vh;
     align-content: center;
 }
+
 div {
     display: inline-block;
 }
+
 .final {
     width: 300px;
     margin: auto auto;
@@ -28,7 +30,7 @@ div {
 .container {
     max-width: 1440px;
     height: auto;
-    background-color: #f0d802;
+    background-color: rgba(52, 50, 50, 0.87);
     padding: 10px;
     margin: 10px auto auto;
     border-radius: 20px;
@@ -45,7 +47,7 @@ div {
     justify-content: center;
     margin: 10px;
     padding: 40px;
-    background-color: #dcc600;
+    background-color:rgba(52, 50, 50, 1);
     border-style: solid;
     border-radius: 20px;
     border-color: #dcc600;
@@ -92,14 +94,14 @@ div {
 .container .form p {
     margin-top: 5px;
     padding: 10px;
-    color: rgb(4, 70, 4);
+    color: white
 }
 
 .container .form label {
     display: flex;
     font-size: 13px;
     line-height: 12px;
-    color: rgb(4, 70, 4);
+    color: white
 }
 
 .container .form input {
@@ -151,7 +153,7 @@ div {
 }
 
 .container .form form input[type="submit"] {
-    background-color: #dcc600;
+    background-color:rgba(52, 50, 50, 1);
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
@@ -173,8 +175,7 @@ div {
     text-align: center;
 }
 
-
-@media (max-width:820px) {
+@media (max-width:800px) {
     .container .img {
         display: none;
     }

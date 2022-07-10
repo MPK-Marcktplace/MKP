@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/cadastro-pj.css">
     <link rel="shortcut icon" href="./img/NewLogo.ico" type="image/x-icon">
-    <title>Cadastro - MKP</title>
+    <title>Cadastro comerciante - MKP</title>
 </head>
 
 <body>
@@ -22,12 +22,13 @@
                 <br></br>
                 <div>
                     <p>BEM VINDO!</p>
-                    <p>Crie sua conta no site MPK e tenha uma experiência personalizada.</p>
+                    <p>Crie sua conta no site MPK e venda deus produtos e serviços de forma simples e eficiente!.</p>
                 </div>
             </div>
 
             <div class="form">
-                <h1>CRIAR CONTA</h1>
+                <h1>CRIAR CONTA </h1>
+
                 <form action="/usuarios" method="post" enctype="multipart/form-data">
                     <div>
                         <label for="nome">Nome</label>
@@ -62,7 +63,7 @@
                         <label for="senha">confirme sua senha</label>
                         <input type="password" id="password" name="password" placeholder="Confirme sua senha" required>
                     </div>
-                    <div class="tipo-usuario">
+                    <div class="selecao">
                         <p>Tipo de Usuário</p>
                         <div>
                             <input type="checkbox" id="usuario" name="usuario-cliente" value="cliente">
@@ -85,7 +86,7 @@
                         <label for="phone">Telefone com DDD</label>
                         <input type="tel" id="phone" nome="phone" placeholder="Digite o Telefone" required>
                     </div>
-                        <div class="tipocontato">
+                        <div class="selecao">
                             <p>Whatsapp?</p>
                             <div>
                                 <input type="radio" id="sim" name="resposta" value="sim">
